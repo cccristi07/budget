@@ -3,7 +3,7 @@
 A simple api(up until now) that let's you analyze your monthly spendings using ingbanks csv reports
 
 ### Prerequisites
-You will need a version a python 3 along with pip
+You will need a version of python 3 along with pip
 
 Just install all the packages in the requirements file
 ```
@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 
 ### Installing
-Install by cloning the repo 
+Install by cloning the repo
 
 ```
 git clone https://github.com/cccristi07/budget.git
