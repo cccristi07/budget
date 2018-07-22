@@ -4,3 +4,6 @@
 # ignore pycharm and visual studio code files
 .idea/
 
+# ignore .csv files [sensitive info]
+*.csv
+
