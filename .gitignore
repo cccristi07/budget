@@ -1,0 +1,6 @@
+# ignore .pyc files
+*.pyc
+
+# ignore pycharm and visual studio code files
+.idea/
+
