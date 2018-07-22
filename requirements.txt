@@ -1,0 +1,5 @@
+seaborn==0.9.0
+pandas==0.23.3
+numpy==1.14.5
+matplotlib==2.2.2
+python_dateutil==2.7.3
