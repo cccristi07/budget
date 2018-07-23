@@ -1,0 +1,6 @@
+1)Break down main.py into a class / several functions - modularity
+2)Adapt for multiple banks csv format
+3)Add support for pdfs
+4)Add a classifier for the transaction details: (food/bills/medical/transportation/fun/etc...)
+5)More spending habbits ideas
+
