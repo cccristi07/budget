@@ -1,6 +1,6 @@
 # budget
 
-A simple api(up until now) that let's you analyze your monthly spendings using ingbanks csv reports
+A simple script(up until now) that let's you analyze your monthly spendings using ingbanks csv reports
 
 ### Prerequisites
 You will need a version of python 3 along with pip

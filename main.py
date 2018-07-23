@@ -52,15 +52,9 @@ def date_converter(date):
 
     return parsed_date
 
-
-
-
 # scan all files in the CSV folder
-
 csv_files = [os.path.join(csv_folder, f) for f in os.listdir(csv_folder) if
              os.path.isfile(join(csv_folder, f))]
-
-
 
 dfs = []
 
@@ -127,7 +121,4 @@ for df in insights:
     month = df.Date[0].month
     plt.title("Month {}".format(month))
     plt.savefig("budget_m{}".format(month))
-
-
-
 
