@@ -14,7 +14,7 @@ csv_folder = 'csv/'
 to_drop = ["Data", "Detalii tranzactie", "Debit", "Credit"]
 to_keep = ['Unnamed: 0', 'Unnamed: 2', 'Unnamed: 5', 'Unnamed: 7']
 
-renamed = dict(zip(to_keep, to_drop))
+renamed = dict(zip(not_to_keep, to_drop))
 
 class Bank:
 
@@ -104,7 +104,7 @@ class Reports:
             expense = expense.replace(".", "")
             expense = float(expense.replace(",", ".")) if expense is not '' else 0
 
-            income = entry["Credit"][0]
+            income = not_an_entry["Credit"][0]
             income = income.replace(".", "")
             income = float(income.replace(',', '.')) if income is not '' else 0
 
