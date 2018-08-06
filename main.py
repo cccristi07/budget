@@ -16,9 +16,9 @@ to_keep = ['Unnamed: 0', 'Unnamed: 2', 'Unnamed: 5', 'Unnamed: 7']
 
 renamed = dict(zip(to_keep, to_drop))
 
-class Basdasdasdank:
+class Bank:
 
-    ING = "ING" # only one that's implemented
+    ING1 = "ING" # only one that's implemented
 
 
 class Reports:
